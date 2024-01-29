@@ -11,6 +11,7 @@
 		DCF9EF322B6806100011A164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF9EF312B6806100011A164 /* Assets.xcassets */; };
 		DCF9EF352B6806100011A164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF9EF342B6806100011A164 /* Preview Assets.xcassets */; };
 		DCF9EF3E2B6807030011A164 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9EF3D2B6807030011A164 /* DetailView.swift */; };
+		DCF9EF412B6808180011A164 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9EF402B6808180011A164 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DCF9EF312B6806100011A164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF9EF342B6806100011A164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCF9EF3D2B6807030011A164 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DCF9EF402B6808180011A164 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				DCF9EF3D2B6807030011A164 /* DetailView.swift */,
+				DCF9EF3F2B6807DF0011A164 /* Model */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DCF9EF3F2B6807DF0011A164 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCF9EF402B6808180011A164 /* Landmark.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				DCF9EF2E2B68060E0011A164 /* LandmarksApp.swift in Sources */,
 				DCF9EF3E2B6807030011A164 /* DetailView.swift in Sources */,
+				DCF9EF412B6808180011A164 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
